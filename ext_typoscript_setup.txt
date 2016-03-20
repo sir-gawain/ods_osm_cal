@@ -1,0 +1,27 @@
+plugin.tx_odsosm_pi1 {
+	marker {
+		tx_cal_location =
+		tx_cal_organizer =
+	}
+
+	popup {
+		tx_cal_location = COA
+		tx_cal_location {
+			10 = TEXT
+			10.field = name
+			10.wrap = <h2>|</h2>
+			20 = TEXT
+			20.field = description
+			20.htmlSpecialChars = 1
+		}
+		tx_cal_organizer = COA
+		tx_cal_organizer {
+			10 = TEXT
+			10.field = name
+			10.wrap = <h2>|</h2>
+			20 = TEXT
+			20.field = description
+			20.htmlSpecialChars = 1
+		}
+	}
+}
